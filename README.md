@@ -1,3 +1,5 @@
+# Introduction
+
 The LACChain service authentication methods are based on the use of a DID as an identity verification mechanism, using the public keys of a DID document to prove the identity of the entity that is in control of that DID. In this article is described a method to authenticate against the LACChain Services that can be leveraged by any electronic service operating in the LACChain ecosystem.
 
 DID Connect is an extension to OIDC (proposed originally from [KayTrust DID Connect](https://developer.kaytrust.id/Specs/DIDConnect/)) for the use of Decentralized Identifiers (DIDs) to perform the authentication. DID Connect introduces the usage of DID and Verifiable Credentials (VCs), which is a decentralized mechanism that allows the client to verify the identity of the user. The DID should also use different public keys to choose the method to validate the user identity. It also proposes the use of VC to include information about the user in the sign-up process. 
@@ -119,6 +121,16 @@ The following table describes error codes that can be returned in the error para
 |unsupported_did_method |	The application does not support the did method.
 |server_error |	The server encountered an unexpected error.
 |temporarily_unavailable |	The server is temporarily too busy to handle the request.
+
+## Licence
+
+Copyright 2021 LACChain
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
 
 
